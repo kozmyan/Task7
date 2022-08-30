@@ -40,7 +40,7 @@
 
     let n = prompt('Введите количество блоков:', 3);
     let s = "";
-    
+    let j = 1;
     for (i = 1; i <= n; i++) {
         
 
@@ -58,7 +58,7 @@
         }
 
         s += `<div style = "background-color: ${random()};">`;
-        let j = 1;
+        
         if (j > 10) j = 1;
         s += `<img src="img/${j++}.png">`;
 
